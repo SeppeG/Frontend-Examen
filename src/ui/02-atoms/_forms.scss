@@ -1,0 +1,27 @@
+@import "../variables";
+
+.input-text {
+	font-family: "DM Sans", sans-serif;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: $light-border;
+	background-color: $bg-white;
+	text-indent: 16px;
+	padding: 14px 0px;
+	width: 100%;
+	::placeholder {
+		color: $text-black-50;
+	}
+	@media only screen and (min-width: 981px) {
+		max-width: 270px;
+	}
+}
+
+.dropdown {
+	border-radius: 3px;
+	border-color: $light-border;
+	background-color: $bg-white;
+	::placeholder {
+		color: $text-black-50;
+	}
+}

@@ -1,0 +1,37 @@
+.group-1 {
+	padding-top: 80px;
+	h2 {
+		hyphens: auto;
+		@media only screen and (max-width: 981px) {
+			hyphens: none;
+		}
+	}
+	.button {
+		margin: 15px 0px;
+		@media only screen and (min-width: 981px) {
+			margin: 0px 15px;
+		}
+	}
+}
+
+.group-2 {
+	.button {
+		margin: 15px 0px;
+	}
+	.h5-h2-content {
+		margin-top: 30px;
+		@media only screen and (min-width: 981px) {
+			margin-top: 0px;
+		}
+	}
+}
+
+.group-4 {
+	.button {
+		margin: 15px 0px;
+
+		@media only screen and (min-width: 981px) {
+			margin: 0px;
+		}
+	}
+}

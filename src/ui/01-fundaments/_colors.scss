@@ -1,0 +1,38 @@
+@import "../variables";
+.text-gray {
+	color: $text-gray;
+}
+.text-white {
+	color: $text-white;
+}
+.text-pink {
+	color: $text-pink;
+}
+.text-black-50 {
+	color: $text-black-50;
+}
+.text-white-50 {
+	color: $text-white-50;
+}
+
+.bg-pink {
+	background-color: $bg-pink;
+}
+.bg-yellow {
+	background-color: $bg-yellow;
+}
+.bg-white {
+	background-color: $bg-white;
+}
+.bg-lightred {
+	background-color: $bg-lightred;
+}
+.bg-darkred {
+	background-color: $bg-darkred;
+}
+.bg-image {
+	height: 448px;
+	background: linear-gradient(rgba(61, 32, 31, 0.5), rgba(61, 32, 31, 0.5)), url("../../img/bg-img.png");
+	background-position: center bottom;
+	background-repeat: repeat;
+}

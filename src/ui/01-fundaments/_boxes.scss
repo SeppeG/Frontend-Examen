@@ -1,0 +1,29 @@
+@import "../variables";
+body {
+	margin: 0 0;
+	padding: 0 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0;
+}
+
+.container {
+	margin: 0 $mobile-margin-lr;
+	padding: $mobile-padding-tb 0;
+	overflow: hidden; // Background for floats
+	@media only screen and (min-width: 981px) {
+		padding: $pc-padding-tb 0;
+		max-width: 1170px;
+		margin: auto; // Content in center of screen
+	}
+}
+
+img {
+	width: 100%;
+	object-fit: contain;
+}
