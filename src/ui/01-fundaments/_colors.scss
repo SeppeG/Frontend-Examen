@@ -33,5 +33,6 @@
 .bg-image {
 	background: linear-gradient(rgba(61, 32, 31, 0.5), rgba(61, 32, 31, 0.5)), url("../../img/bg-img.png");
 	background-position: center bottom;
+	object-fit: contain;
 	background-repeat: repeat;
 }
