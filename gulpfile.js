@@ -4,7 +4,6 @@ const browserSync = require("browser-sync");
 const sass = require("gulp-dart-sass");
 const babel = require("gulp-babel");
 const imagemin = require("gulp-imagemin");
-const concatenate = require("gulp-concat");
 const origin = "src";
 const destination = "build";
 
@@ -30,10 +29,6 @@ function scss(cb) {
 	src(`${origin}/ui/**/*.scss`)
 		.pipe(sass({ outputStyle: "compressed" }))
 		.pipe(dest(`${destination}/css`));
-	cb();
-}
-function webfonts(cb) {
-	src(`${origin}/webfonts/**/**`).pipe(dest(`${destination}/webfonts`));
 	cb();
 }
 
@@ -67,4 +62,4 @@ function server(cb) {
 exports.html = html;
 exports.scss = scss;
 exports.js = js;
-exports.default = series(clean, parallel(html, scss, js, webfonts, images), server, watcher);
+exports.default = series(clean, parallel(html, scss, js, images), server, watcher);
