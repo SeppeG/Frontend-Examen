@@ -16,7 +16,7 @@ p {
 	margin: 0 $mobile-margin-lr;
 	padding: $mobile-padding-tb 0;
 	@media only screen and (min-width: 981px) {
-		padding: $pc-padding-tb 0;
+		padding: $pc-padding;
 		max-width: 1170px;
 		margin: auto; // Content in center of screen
 	}
