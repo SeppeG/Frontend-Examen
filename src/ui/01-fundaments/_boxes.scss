@@ -13,6 +13,7 @@ p {
 }
 
 .container {
+	z-index: 1;
 	margin: 0 $mobile-margin-lr;
 	padding: $mobile-padding-tb 0;
 	@media only screen and (min-width: 981px) {

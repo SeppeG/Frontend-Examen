@@ -13,22 +13,24 @@
 	font-weight: bold;
 	width: 170px;
 	height: 48px;
+	cursor: pointer;
 }
+
 .button.secondary {
-	background-color: transparent !important;
-	border: 1px solid !important;
-	border-color: $primary-1 !important;
-	color: $primary-1 !important;
+	background-color: transparent;
+	border: 1px solid;
+	border-color: $primary-1;
+	color: $primary-1;
 }
 .button.dark {
-	background-color: $bg-white !important;
-	color: $text-gray !important;
-	border: 2px solid !important;
-	border-color: $text-gray !important;
+	background-color: $bg-white;
+	color: $text-gray;
+	border: 2px solid;
+	border-color: $text-gray;
 }
 .button.light {
-	background-color: transparent !important;
-	border: 1px solid !important;
-	border-color: $text-white !important;
-	color: $text-white !important;
+	background-color: transparent;
+	border: 1px solid;
+	border-color: $text-white;
+	color: $text-white;
 }
